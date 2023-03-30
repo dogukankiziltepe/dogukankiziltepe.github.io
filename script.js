@@ -3,7 +3,7 @@ var dizi = [];
 function topla(){
    var ilkSayi = document.getElementById("firstNumber").value;
    var ikinciSayi = document.getElementById("secondNumber").value;
-   alert(ilkSayi+ikinciSayi);
+   alert(Number(ilkSayi)+Number(ikinciSayi));
 }
 
 function mouseOver(){
