@@ -13,7 +13,7 @@ function mouseOver(){
 
 function diziyeEkleEkranaBas(){
     var element = document.getElementById("textInput").value;
-    var diziDiv = document.getElementById("diziDiv")
+    var diziDiv = document.getElementById("dizi")
     dizi.push(element)
     diziDiv.innerHTML = dizi
 }
