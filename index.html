@@ -1,6 +1,74 @@
 <!DOCTYPE html>
-   <html>
-      <body>
-          <h1>DOĞUKAN KIZILTEPE</h1>
-      </body>
-   </html> 
+<html>
+<head>
+	<title>Örnek Portfolyo Sayfası</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Adınız Soyadınız</h1>
+			<nav>
+				<ul>
+					<li><a href="#hakkimda">Hakkımda</a></li>
+					<li><a href="#egitim">Eğitim</a></li>
+					<li><a href="#projeler">Projeler</a></li>
+					<li><a href="#iletisim">İletişim</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="hakkimda">
+			<div class="container">
+            <div style="display: flex;">
+               <img src="/author-image.jpg"/>
+               <div>
+                  <h2>Hakkımda</h2>
+				      <p>Özet bilgi ve açıklama</p>
+               </div>
+            </div>
+			</div>
+		</section>
+		<section id="egitim">
+			<div class="container">
+				<h2>Eğitim</h2>
+				<ul>
+					<li>Lisans/Master/Eğitim adı - Okul adı - Mezuniyet Yılı</li>
+					<li>Lisans/Master/Eğitim adı - Okul adı - Mezuniyet Yılı</li>
+				</ul>
+			</div>
+		</section>
+		<section id="projeler">
+			<div class="container">
+				<h2>Projeler</h2>
+				<ul>
+					<li><a href="#">Proje 1 Adı</a> - Proje açıklaması</li>
+					<li><a href="#">Proje 2 Adı</a> - Proje açıklaması</li>
+				</ul>
+			</div>
+		</section>
+		<section id="iletisim">
+			<div class="container">
+				<h2>İletişim</h2>
+				<form action="#" method="post">
+					<label for="ad">Adınız</label>
+					<input type="text" name="ad" id="ad">
+					<label for="soyad">Soyadınız</label>
+					<input type="text" name="soyad" id="soyad">
+					<label for="email">E-posta Adresiniz</label>
+					<input type="email" name="email" id="email">
+					<label for="mesaj">Mesajınız</label>
+					<textarea name="mesaj" id="mesaj"></textarea>
+					<input type="submit" value="Gönder">
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<p>Telif Hakkı © 2023 - Adınız Soyadınız</p>
+		</div>
+	</footer>
+</body>
+</html>
